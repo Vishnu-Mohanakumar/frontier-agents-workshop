@@ -24,6 +24,7 @@ import pytz
 from dotenv import load_dotenv
 from agent_framework import (
     ChatAgent,
+    HostedWebSearchTool,
     MagenticAgentDeltaEvent,
     MagenticAgentMessageEvent,
     MagenticBuilder,
@@ -237,7 +238,7 @@ async def run_magentic_workflow() -> None:
         instructions=(
             "Recommend dishes for the right time of the day, location, available "
             "ingredients and user preferences. Always ask for food preferences "
-            "and allergies. Never suggest a dish until allergies are clarified."
+            "and allergies. Never suggest a dish until allergies are clarified." 
         ),
         chat_client=openai_client,
         tools=[get_available_ingredients, get_weather],

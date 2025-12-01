@@ -13,7 +13,7 @@ Relevant references
 - Magentic One article: https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/
 
 Relevant samples:
-- [`samples/agent-moderation`](../../../samples/agent-moderation) – examples of moderating or orchestrating agents.
+- [`samples/magentic`](../../../samples/magentic) – examples of moderating or orchestrating agents.
 
 Input queries:
 - "Plan a 7-day city and nature trip in Europe under 2,000 EUR."
@@ -22,4 +22,4 @@ Input queries:
 - "Explain how each agent contributed to this travel plan."
 
 Tooling tips:
-Start by exploring the `samples/agent-moderation` code to see how moderation or orchestration between agents is modeled. Identify where agents are defined, how they are registered with the orchestrator, and how global rules or constraints are passed into the system. When iterating, turn on structured logging or tracing so you can track which agent acted at each step and why proposals were accepted or rejected. Experiment with changing constraints (budget, locations, activity mix) to observe how the moderator adapts the sequence of agent calls.
+Start by exploring the `samples/magentic` code to see how moderation or orchestration between agents is modeled. Identify where agents are defined, how they are registered with the orchestrator, and how global rules or constraints are passed into the system. When iterating, turn on structured logging or tracing so you can track which agent acted at each step and why proposals were accepted or rejected. Experiment with changing constraints (budget, locations, activity mix) to observe how the moderator adapts the sequence of agent calls.
