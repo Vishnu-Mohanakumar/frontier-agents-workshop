@@ -13,7 +13,7 @@ load_dotenv()
 async def main():
     """Main client loop."""
     # Get server URL from environment or use default
-    server_url = os.environ.get("AGUI_SERVER_URL", "http://127.0.0.1:8888/")
+    server_url = os.environ.get("AGUI_SERVER_URL", "http://127.0.0.1:8888")
     print(f"Connecting to AG-UI server at: {server_url}\n")
 
     # Create AG-UI chat client

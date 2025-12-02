@@ -197,7 +197,7 @@ async def conversation_example(client: AGUIChatClient):
 async def main():
     """Run all examples."""
     # Get server URL from environment or use default
-    server_url = os.environ.get("AGUI_SERVER_URL", "http://127.0.0.1:8888/")
+    server_url = os.environ.get("AGUI_SERVER_URL", "http://127.0.0.1:8888")
 
     print("=" * 60)
     print("AG-UI Chat Client Advanced Examples")

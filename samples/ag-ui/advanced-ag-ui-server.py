@@ -84,7 +84,7 @@ agent = ChatAgent(
 # Create FastAPI app
 app = FastAPI(title="AG-UI Server")
 
-# Register the AG-UI endpoint
+# Register the AG-UI endpoint at the root path
 add_agent_framework_fastapi_endpoint(app, agent, "/")
 
 if __name__ == "__main__":
