@@ -6,6 +6,7 @@ Join us for an immersive hands-on lab focused on Microsoft Agent Framework, wher
 
 1. [Overview](#overview)
 2. [Prerequisites](#prerequisites)
+3. [Learning Goals](#learning-goals-for-this-workshop)
 3. [Environment Setup](#environment-setup)
 4. [Workshop Scenarios](#workshop-scenarios)
 5. [Troubleshooting](#troubleshooting)
@@ -20,23 +21,28 @@ Join us for an immersive hands-on lab focused on Microsoft Agent Framework, wher
 
 ## Learning Goals for this workshop
 
-🛠 Agent Authoring - Learning to use the *Microsoft Agent Framework* SDK for code-based and declarative agent development.
+### 🛠 Agent Authoring
+Learning to use the *Microsoft Agent Framework* SDK for code-based and declarative agent development.
 
 ![workflows](./images/workflows.png)
 
-🚀 Agent Debugging - Build, Test and Deploy agents using the DevUI, Foundry UI or VSCode Extension.
+### 🚀 Agent Debugging
+Build, Test and Deploy agents using the DevUI, Foundry UI or VSCode Extension.
 
 ![devui](./images/tooling.png)
 
-🔌 Connect Agents - Connect agents using AG-UI, MCP, A2A Protocols to integrate them into your solutions.
+### 🔌 Connecting Agents
+Connect agents using AG-UI, MCP, A2A Protocols to integrate them into your solutions.
 
 ![protocols](./images/protocols.png)
 
-⚙️ Multi-Agent Orchestration - Define multi-agent orchestration workflows to solve complex problems with agents.
+### ⚙️ Multi-Agent Orchestration
+Define multi-agent orchestration workflows to solve complex problems with agents.
 
 ![patterns](./images/patterns.png)
 
-🔍 Agent Tracing & Evaluation - Trace agent behaviour,  execution flows and evaluate quality and safety of agents.
+### 🔍 Agent Tracing & Evaluation
+Trace agent behaviour,  execution flows and evaluate quality and safety of agents.
 
 ![evaluations](./images/evaluations.png)
 
@@ -91,6 +97,8 @@ Join us for an immersive hands-on lab focused on Microsoft Agent Framework, wher
 ## Workshop Scenarios
 
 This workshop is organized into seven independent, progressively more advanced scenarios. Each scenario has its own `README.md` in `src/scenarios` describing goals, tasks, references, and example prompts.
+
+You do not have to use **[Spec Kit](https://speckit.org/)** for this workshop but we recommend to take a look because it a great way to practice professional software engineering with AI assistance.
 
 1. **Scenario 1 – learning how to build your first agent**  
    Learn how to define a basic agent, connect tools, and use the Agent Framework Dev UI to inspect activities, metrics, and traces while the agent answers time and weather questions and maintains conversational memory.  
